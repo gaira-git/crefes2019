@@ -35,6 +35,10 @@
 					<p>中部地区初の、ゲーム業界に限定した就職展。
 						<br/>地元企業を中心に、首都圏/京阪神の著名３社を加えた多数企業が出展。
 						<br/>また、(株)カプコンの現役デザイナーによるポートフォリオアドバイスも実現！</p>
+					<h2>2018年3月14日(水) 11:00～17:00
+						<br>デザインホール(ナディアパーク3階)
+					</h2>
+					<a href="#form" class="button ">参加登録</a>
 				</div>
 			</div>
 			<nav>
@@ -58,6 +62,9 @@
 						<a href="#faq">FAQ</a>
 					</li>
 					<!-- <li>
+						<a href="#form">参加登録</a>
+					</li>
+					<li>
 						<a href="#elements">Elements</a>
 					</li> -->
 				</ul>
@@ -368,38 +375,44 @@
 					<dt>GAIRAって何？</dt>
 					<dd>正式名称は「中部ゲーム産学協議会」。英語表記である「Game Academics &amp; Industries Relationship Association」の頭文字をとって、“GAIRA”（がいら）を略称としています。「中部地方のゲームの、文化産業両面での発展・振興をはかる」という目的で、2012年に結成されました。GAIRAを構成するのは、この地方に拠点を置くゲーム会社やゲームクリエイターコースを持つ専門学校、そして大学の研究者やインディーズクリエイターなどの個人です。規模の大小に関わらず対等な立場で参加、目的に向けてともに取り組んでいます。
 						<br>
-						<br> GAIRAについて詳しく知りたい方は、<a href="http://gaira.org/">Webサイト</a>をごらんください。
+						<br> GAIRAについて詳しく知りたい方は、
+						<a href="http://gaira.org/">Webサイト</a>をごらんください。
 					</dd>
 				</dl>
 				<p></p>
 			</article>
 
-			<!-- Contact -->
-			<article id="contact">
-				<h2 class="major">Contact</h2>
-				<form method="post" action="#">
+			<!-- 参加登録 -->
+			<article id="form">
+				<h2 class="major">参加登録</h2>
+				<form method="post" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSeG1uQPXzXJwR9bg6oN0RmA64FsiXxn5l9IMP9TiKQTKMRZZg/formResponse">
 					<div class="field half first">
-						<label for="name">Name</label>
-						<input type="text" name="name" id="name" />
+						<label for="name">名前（必須)</label>
+						<input type="text" name="entry.2123428044" id="name" value="" placeholder="例) 中部　太郎" required/>
 					</div>
 					<div class="field half">
-						<label for="email">Email</label>
-						<input type="text" name="email" id="email" />
+						<label for="email">Email（必須)</label>
+						<input type="email" name="entry.2055858415" id="email" value="" placeholder="例) taro@gaira.org" required/>
 					</div>
 					<div class="field">
-						<label for="message">Message</label>
-						<textarea name="message" id="message" rows="4"></textarea>
+						<label for="school">学校（必須)</label>
+						<input type="text" name="entry.455971981" id="school" value="" placeholder="例) ガイラ専門学校" required/>
 					</div>
+					<div class="field">
+						<label for="desire">希望職種</label>
+						<input type="text" name="entry.1000428833" id="desire" value="" placeholder="例) プランナー" />
+					</div>
+					<br>
 					<ul class="actions">
 						<li>
-							<input type="submit" value="Send Message" class="special" />
+							<input type="submit" value="データ送信" class="special" />
 						</li>
 						<li>
-							<input type="reset" value="Reset" />
+							<input type="reset" value="リセット" />
 						</li>
 					</ul>
 				</form>
-				<ul class="icons">
+				<!-- <ul class="icons">
 					<li>
 						<a href="#" class="icon fa-twitter">
 							<span class="label">Twitter</span>
@@ -420,7 +433,7 @@
 							<span class="label">GitHub</span>
 						</a>
 					</li>
-				</ul>
+				</ul> -->
 			</article>
 
 			<!-- Elements -->
@@ -722,8 +735,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Footer -->
 		<footer id="footer">
-			<p class="copyright">&copy; 
-				<a href="http://gaira.org/">GAIRA</a></p>
+			<p class="copyright">&copy;
+				<a href="http://gaira.org/">GAIRA</a>
+			</p>
 		</footer>
 
 	</div>
