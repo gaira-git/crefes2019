@@ -1496,6 +1496,9 @@
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
+		text-align: justify;
+		word-wrap: break-word;
+
 	}
 
 		#main article {
